@@ -3,7 +3,7 @@ import "./App.css";
 import React, { useEffect } from "react";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home";
+import Albums from "./Components/Albums/Albums";
 function App() {
   let loggedIn = true;
   useEffect(() => {
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <Sidebar />
-      <Home />
+      <Albums />
       <Footer />
     </div>
   );

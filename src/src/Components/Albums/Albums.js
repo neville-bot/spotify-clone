@@ -1,6 +1,6 @@
 import React from "react";
-import "./Home.css";
-function Home() {
+import "./Albums.css";
+function Albums() {
   return (
     <div className="container">
       <header>
@@ -8,8 +8,14 @@ function Home() {
       </header>
 
       <div className="grid playlist">
-        <a href="playlist-one">Super What?</a>
-        <a href="playlist-two">Last Podcast On the Left</a>
+        <div className="album-container">
+          {" "}
+          <a href="playlist-one">Super What?</a>
+        </div>
+        <div className="album-container">
+          {" "}
+          <a href="playlist-two">Last Podcast On the Left</a>
+        </div>
         <a href="playlist-three">Dark Academia Classical</a>
         <a href="playlist-four">Joe Rogan Experience</a>
       </div>
@@ -21,4 +27,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Albums;

@@ -24,11 +24,17 @@
 .sidebar-top {
   height: 40%;
 }
+.sidebar-home {
+  padding: 20px 0 20px 0;
+}
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.playlist {
+  padding-top: 10px;
+  overflow: scroll;
+  height: 60%;
+}
+.playlist a {
+  font-size: 20px;
 }
 
 .column {
